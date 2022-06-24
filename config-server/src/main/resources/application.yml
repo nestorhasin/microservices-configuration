@@ -1,0 +1,13 @@
+server:
+    port: 8888
+
+spring:
+    cloud:
+        config:
+            server:
+                git:
+                    default-label: master
+                    uri: https://github.com/nestorhasin/microservices-configuration
+                    search-paths: config-client
+    application:
+        name: config-server
