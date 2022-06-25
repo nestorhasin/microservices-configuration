@@ -1,0 +1,6 @@
+server:
+    port: 1111
+
+com:
+    nubox:
+        url: http://prod.products-service.nubox.com

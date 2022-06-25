@@ -1,0 +1,6 @@
+server:
+    port: 9022
+
+com:
+    nubox:
+        url: http://dev.sales-service.nubox.com

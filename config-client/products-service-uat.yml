@@ -1,0 +1,6 @@
+server:
+    port: 9111
+
+com:
+    nubox:
+        url: http://uat.products-service.nubox.com

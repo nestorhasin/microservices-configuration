@@ -3,4 +3,4 @@ server:
 
 com:
     nubox:
-        url: http://default.nubox.com
+        url: http://default.sales-service.nubox.com

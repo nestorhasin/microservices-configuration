@@ -1,0 +1,6 @@
+server:
+    port: 9011
+
+com:
+    nubox:
+        url: http://dev.products-service.nubox.com

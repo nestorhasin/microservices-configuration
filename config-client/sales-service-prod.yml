@@ -1,0 +1,6 @@
+server:
+    port: 2222
+
+com:
+    nubox:
+        url: http://prod.sales-service.nubox.com

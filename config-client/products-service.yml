@@ -1,2 +1,6 @@
 server:
     port: 9001
+
+com:
+    nubox:
+        url: http://default.products-service.nubox.com

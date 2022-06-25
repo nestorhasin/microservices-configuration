@@ -1,0 +1,6 @@
+server:
+    port: 9222
+
+com:
+    nubox:
+        url: http://uat.sales-service.nubox.com
