@@ -1,6 +1,13 @@
 server:
-    port: 1111
+    port: 0
 
 com:
     nubox:
         url: http://prod.products-service.nubox.com
+
+spring:
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
