@@ -7,7 +7,7 @@ spring:
             server:
                 git:
                     default-label: master
-                    uri: https://github.com/nestorhasin/microservices-configuration
+                    uri: https://github.com/nestorhasin/microservices-configuration.git
                     search-paths: config-client
     application:
         name: config-server
