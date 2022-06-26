@@ -3,7 +3,7 @@ server:
 
 com:
     nubox:
-        url: http://prod.sales-service.nubox.com
+        url: http://PROD.sales-service.nubox.com
 
 spring:
     rabbitmq:
