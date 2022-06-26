@@ -3,4 +3,11 @@ server:
 
 com:
     nubox:
-        url: http://prod.sales-service.nubox.com
+        url: http://PROD.sales-service.nubox.com
+
+spring:
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
