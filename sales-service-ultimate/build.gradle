@@ -1,5 +1,6 @@
 plugins {
-	id 'org.springframework.boot' version '2.7.1'
+	//id 'org.springframework.boot' version '2.7.1'
+	id 'org.springframework.boot' version '2.5.4'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
@@ -19,19 +20,26 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', "2021.0.3")
+	//set('springCloudVersion', "2021.0.3")
+	set('springCloudVersion', "2020.0.3")
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+	// webflux
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 
-	implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp:3.1.2'
+	implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
 	
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'

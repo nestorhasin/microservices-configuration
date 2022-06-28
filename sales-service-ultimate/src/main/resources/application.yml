@@ -6,8 +6,30 @@ spring:
         - optional:configserver:http://localhost:8888
     profiles:
         active: prod
+    cloud:
+        bus:
+            refresh:
+                enabled: true
+            env:
+                enabled: true
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+
+endpoints:
+    spring:
+        cloud:
+            bus:
+                refresh:
+                    enabled: true
+                env:
+                    enabled: true
 
 management:
+    security:
+        enabled: false
     endpoints:
         web:
             exposure:

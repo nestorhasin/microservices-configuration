@@ -9,5 +9,20 @@ spring:
                     default-label: master
                     uri: https://github.com/nestorhasin/microservices-configuration.git
                     search-paths: config-client
+        bus:
+            enabled: true
     application:
         name: config-server
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+
+management:
+    security:
+        enabled: false
+    endpoints:
+        web:
+            exposure:
+                include: "*"
